@@ -1,13 +1,18 @@
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$white: hsl(0, 0%, 100%);
 header {
+  background: $white;
+  position: relative;
+  z-index: 1;
   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px 30px;
     align-items: center;
     a {
       text-decoration: none;
-      color: #e6e6e6;
+      color: #bab9be;
       font-weight: 300;
     }
     a:hover {
@@ -32,9 +37,9 @@ header {
       font-size: 15px;
       background-image: linear-gradient(
         to left,
-        #051937,
-        #004d7a,
-        #008793,
+        #2dbbc7,
+        #2bb9cf,
+        #30c989,
         #00bf72,
         #a8eb12
       );

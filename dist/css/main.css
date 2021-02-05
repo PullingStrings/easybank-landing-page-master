@@ -3,13 +3,49 @@
  * @section Base Styles
  */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;500;700&display=swap");
-/* line 9, src/sass/components/_base.scss */
+/* line 18, src/sass/components/_base.scss */
 body {
   font-family: "Public Sans", sans-serif;
   font-weight: normal;
+  margin: 0;
 }
 
-/* line 2, src/sass/components/_nav.scss */
+/* line 23, src/sass/components/_base.scss */
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+  color: #2d314d;
+}
+
+/* line 28, src/sass/components/_base.scss */
+p {
+  color: #9698a6;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -1;
+}
+
+/* line 36, src/sass/components/_base.scss */
+button {
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2dbbc7), color-stop(#2bb9cf), color-stop(#30c989), color-stop(#00bf72), to(#a8eb12));
+  background-image: linear-gradient(to left, #2dbbc7, #2bb9cf, #30c989, #00bf72, #a8eb12);
+}
+
+/* line 3, src/sass/components/_nav.scss */
+header {
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 7, src/sass/components/_nav.scss */
 header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,27 +57,27 @@ header .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px;
+  padding: 15px 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-/* line 8, src/sass/components/_nav.scss */
+/* line 13, src/sass/components/_nav.scss */
 header .container a {
   text-decoration: none;
-  color: #e6e6e6;
+  color: #bab9be;
   font-weight: 300;
 }
 
-/* line 13, src/sass/components/_nav.scss */
+/* line 18, src/sass/components/_nav.scss */
 header .container a:hover {
   border-bottom: 4px solid red;
   padding-bottom: 10px;
   color: #000000;
 }
 
-/* line 18, src/sass/components/_nav.scss */
+/* line 23, src/sass/components/_nav.scss */
 header .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,12 +86,12 @@ header .container ul {
   margin: 0px;
 }
 
-/* line 22, src/sass/components/_nav.scss */
+/* line 27, src/sass/components/_nav.scss */
 header .container ul li {
   padding: 0px 10px;
 }
 
-/* line 26, src/sass/components/_nav.scss */
+/* line 31, src/sass/components/_nav.scss */
 header .container button {
   color: white;
   font-weight: bold;
@@ -63,6 +99,39 @@ header .container button {
   border-radius: 25px;
   border: none;
   font-size: 15px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#051937), color-stop(#004d7a), color-stop(#008793), color-stop(#00bf72), to(#a8eb12));
-  background-image: linear-gradient(to left, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: -webkit-gradient(linear, right top, left top, from(#2dbbc7), color-stop(#2bb9cf), color-stop(#30c989), color-stop(#00bf72), to(#a8eb12));
+  background-image: linear-gradient(to left, #2dbbc7, #2bb9cf, #30c989, #00bf72, #a8eb12);
+}
+
+/* line 1, src/sass/components/_jumbotron.scss */
+section {
+  background: #fafafa;
+}
+
+/* line 3, src/sass/components/_jumbotron.scss */
+section .jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../assets/bg-intro-desktop.svg");
+  background-position-x: 35em;
+  background-position-y: -20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10em 5em;
+}
+
+/* line 12, src/sass/components/_jumbotron.scss */
+section .jumbotron .jumbotron-text {
+  width: 50%;
+}
+
+/* line 15, src/sass/components/_jumbotron.scss */
+section .jumbotron .jumbotron-image {
+  position: absolute;
+  right: -130px;
+  bottom: 40px;
 }

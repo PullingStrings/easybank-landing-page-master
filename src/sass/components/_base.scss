@@ -5,8 +5,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;500;700&display=swap');
 
 $public-sans: 'Public Sans', sans-serif;
+$greyishBlue: hsl(233, 8%, 62%);
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$veryLightGrey: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// Primary Colors
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%);
 
 body {
   font-family: $public-sans;
   font-weight: normal;
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+  color: $darkBlue;
+}
+p {
+  color: $greyishBlue;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: -1;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  background-image: linear-gradient(
+    to left,
+    #2dbbc7,
+    #2bb9cf,
+    #30c989,
+    #00bf72,
+    #a8eb12
+  );
 }
