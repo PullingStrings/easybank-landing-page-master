@@ -20,17 +20,46 @@ body {
   font-weight: normal;
   margin: 0;
 }
+
+section {
+  padding: 10em 5em;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 100;
   color: $darkBlue;
 }
+
+h2 {
+  font-weight: 300;
+  color: $darkBlue;
+}
+
+h3 {
+  color: $darkBlue;
+  font-weight: 300;
+}
+
+h4 {
+  color: $darkBlue;
+  font-weight: 300;
+}
+
+a {
+  color: $darkBlue;
+}
+
 p {
   color: $greyishBlue;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   letter-spacing: -1;
+}
+
+small {
+  color: $greyishBlue;
 }
 
 button {

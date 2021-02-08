@@ -1,21 +1,18 @@
-section {
-  background: #fafafa;
-  .jumbotron {
-    display: flex;
-    background-image: url('../assets/bg-intro-desktop.svg');
-    background-position-x: 35em;
-    background-position-y: -20em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    padding: 10em 5em;
-    .jumbotron-text {
-      width: 50%;
-    }
-    .jumbotron-image {
-      position: absolute;
-      right: -130px;
-      bottom: 40px;
-    }
+.jumbotron {
+  display: flex;
+  background-image: url('../assets/bg-intro-desktop.svg');
+  background-position-x: 35em;
+  background-position-y: -20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+
+  .jumbotron-text {
+    width: 50%;
+  }
+  .jumbotron-image {
+    position: absolute;
+    right: -130px;
+    bottom: 40px;
   }
 }

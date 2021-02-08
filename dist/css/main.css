@@ -10,14 +10,42 @@ body {
   margin: 0;
 }
 
-/* line 23, src/sass/components/_base.scss */
+/* line 24, src/sass/components/_base.scss */
+section {
+  padding: 10em 5em;
+}
+
+/* line 28, src/sass/components/_base.scss */
 h1 {
   font-size: 48px;
   font-weight: 100;
   color: #2d314d;
 }
 
-/* line 28, src/sass/components/_base.scss */
+/* line 34, src/sass/components/_base.scss */
+h2 {
+  font-weight: 300;
+  color: #2d314d;
+}
+
+/* line 39, src/sass/components/_base.scss */
+h3 {
+  color: #2d314d;
+  font-weight: 300;
+}
+
+/* line 44, src/sass/components/_base.scss */
+h4 {
+  color: #2d314d;
+  font-weight: 300;
+}
+
+/* line 49, src/sass/components/_base.scss */
+a {
+  color: #2d314d;
+}
+
+/* line 53, src/sass/components/_base.scss */
 p {
   color: #9698a6;
   font-size: 18px;
@@ -26,7 +54,12 @@ p {
   letter-spacing: -1;
 }
 
-/* line 36, src/sass/components/_base.scss */
+/* line 61, src/sass/components/_base.scss */
+small {
+  color: #9698a6;
+}
+
+/* line 65, src/sass/components/_base.scss */
 button {
   color: white;
   font-weight: bold;
@@ -104,12 +137,7 @@ header .container button {
 }
 
 /* line 1, src/sass/components/_jumbotron.scss */
-section {
-  background: #fafafa;
-}
-
-/* line 3, src/sass/components/_jumbotron.scss */
-section .jumbotron {
+.jumbotron {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,17 +149,93 @@ section .jumbotron {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10em 5em;
 }
 
-/* line 12, src/sass/components/_jumbotron.scss */
-section .jumbotron .jumbotron-text {
+/* line 10, src/sass/components/_jumbotron.scss */
+.jumbotron .jumbotron-text {
   width: 50%;
 }
 
-/* line 15, src/sass/components/_jumbotron.scss */
-section .jumbotron .jumbotron-image {
+/* line 13, src/sass/components/_jumbotron.scss */
+.jumbotron .jumbotron-image {
   position: absolute;
   right: -130px;
   bottom: 40px;
+}
+
+/* line 1, src/sass/components/_icons-section.scss */
+.icon-section {
+  background: #fafafa;
+}
+
+/* line 3, src/sass/components/_icons-section.scss */
+.icon-section .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 5, src/sass/components/_icons-section.scss */
+.icon-section .icons .block {
+  padding: 10px;
+}
+
+/* line 1, src/sass/components/_articles.scss */
+.latest-articles {
+  padding: 1em 5em;
+  background-color: #fafafa;
+}
+
+/* line 2, src/sass/components/_articles.scss */
+.latest-articles h2 {
+  padding-left: 12px;
+}
+
+/* line 7, src/sass/components/_articles.scss */
+.latest-articles .articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 9, src/sass/components/_articles.scss */
+.latest-articles .articles .block {
+  padding: 15px;
+  border-radius: 3px;
+}
+
+/* line 12, src/sass/components/_articles.scss */
+.latest-articles .articles .block img {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 18, src/sass/components/_articles.scss */
+.latest-articles .articles .block .text {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* line 21, src/sass/components/_articles.scss */
+.latest-articles .articles .block .text small {
+  font-size: 12px;
+}
+
+/* line 24, src/sass/components/_articles.scss */
+.latest-articles .articles .block .text a {
+  text-decoration: none;
+}
+
+/* line 27, src/sass/components/_articles.scss */
+.latest-articles .articles .block .text a:hover {
+  color: #31cf6e;
+  text-decoration: none;
+}
+
+/* line 31, src/sass/components/_articles.scss */
+.latest-articles .articles .block .text p {
+  font-size: 12px;
+  line-height: 19px;
 }
