@@ -239,3 +239,122 @@ header .container button {
   font-size: 12px;
   line-height: 19px;
 }
+
+/* line 1, src/sass/components/_footer.scss */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2d314f;
+  padding: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 6, src/sass/components/_footer.scss */
+footer svg {
+  padding-bottom: 55px;
+}
+
+/* line 9, src/sass/components/_footer.scss */
+footer p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+/* line 14, src/sass/components/_footer.scss */
+footer p:hover {
+  color: #31cf6e;
+  cursor: pointer;
+}
+
+/* line 18, src/sass/components/_footer.scss */
+footer .image-col {
+  width: 25%;
+}
+
+/* line 20, src/sass/components/_footer.scss */
+footer .image-col .social-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 22, src/sass/components/_footer.scss */
+footer .image-col .social-icons i {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0px 5px;
+}
+
+/* line 30, src/sass/components/_footer.scss */
+footer .image-col .social-icons i:hover {
+  cursor: pointer;
+}
+
+/* line 33, src/sass/components/_footer.scss */
+footer .image-col .social-icons .facebook {
+  background-image: url("../assets/icon-facebook.svg");
+}
+
+/* line 36, src/sass/components/_footer.scss */
+footer .image-col .social-icons .youtube {
+  background-image: url("../assets/icon-youtube.svg");
+}
+
+/* line 39, src/sass/components/_footer.scss */
+footer .image-col .social-icons .twitter {
+  background-image: url("../assets/icon-twitter.svg");
+}
+
+/* line 42, src/sass/components/_footer.scss */
+footer .image-col .social-icons .pinterest {
+  background-image: url("../assets/icon-pinterest.svg");
+}
+
+/* line 45, src/sass/components/_footer.scss */
+footer .image-col .social-icons .instagram {
+  background-image: url("../assets/icon-instagram.svg");
+}
+
+/* line 51, src/sass/components/_footer.scss */
+footer .footer-text-col-one {
+  width: 25%;
+}
+
+/* line 54, src/sass/components/_footer.scss */
+footer .footer-text-col-two {
+  width: 25%;
+}
+
+/* line 57, src/sass/components/_footer.scss */
+footer .footer-btn {
+  width: 25%;
+  text-align: right;
+}
+
+/* line 60, src/sass/components/_footer.scss */
+footer .footer-btn button {
+  margin-bottom: 20px;
+}
+
+/* line 1, src/sass/components/_attribution.scss */
+.attribution {
+  background-color: #2d314f;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 100;
+}
+
+/* line 6, src/sass/components/_attribution.scss */
+.attribution a {
+  text-decoration: none;
+  color: #31cf6e;
+}
