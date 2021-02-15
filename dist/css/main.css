@@ -150,18 +150,32 @@ header .container button {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fafafa;
+  position: relative;
+  overflow: hidden;
 }
 
-/* line 11, src/sass/components/_jumbotron.scss */
+/* line 13, src/sass/components/_jumbotron.scss */
 .jumbotron .jumbotron-text {
   width: 50%;
 }
 
-/* line 14, src/sass/components/_jumbotron.scss */
+/* line 16, src/sass/components/_jumbotron.scss */
 .jumbotron .jumbotron-image {
   position: absolute;
   right: -130px;
-  bottom: 40px;
+  bottom: -165px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 24, src/sass/components/_jumbotron.scss */
+  .jumbotron {
+    background-position-x: 20em;
+    background-position-y: -20em;
+  }
+  /* line 27, src/sass/components/_jumbotron.scss */
+  .jumbotron .jumbotron-text {
+    width: 40%;
+  }
 }
 
 /* line 1, src/sass/components/_icons-section.scss */

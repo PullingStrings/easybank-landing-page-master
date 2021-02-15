@@ -7,6 +7,8 @@
   background-size: cover;
   align-items: center;
   background-color: #fafafa;
+  position: relative;
+  overflow: hidden;
 
   .jumbotron-text {
     width: 50%;
@@ -14,6 +16,16 @@
   .jumbotron-image {
     position: absolute;
     right: -130px;
-    bottom: 40px;
+    bottom: -165px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotron {
+    background-position-x: 20em;
+    background-position-y: -20em;
+    .jumbotron-text {
+      width: 40%;
+    }
   }
 }
